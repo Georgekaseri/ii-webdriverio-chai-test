@@ -61,6 +61,7 @@ export const config: Options.Testrunner = {
       maxInstances: 5,
       browserName: "chrome",
       acceptInsecureCerts: true,
+      timeouts: { implicit: 0, pageLoad: 300000, script: 30000 },
     },
   ],
   //

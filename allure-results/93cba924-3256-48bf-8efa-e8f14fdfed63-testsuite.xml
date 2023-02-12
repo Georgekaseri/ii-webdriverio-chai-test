@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676172659220' stop='1676172661020'>
+    <name>should test Interactive Investor application</name>
+    <title>should test Interactive Investor application</title>
+    <test-cases>
+        <test-case start='1676172659221' status='broken' stop='1676172660863'>
+            <name>should get the correct page titel</name>
+            <title>should get the correct page titel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676172659223' status='broken' stop='1676172660863'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='efaa3238-61b9-4bd8-a44d-7cc041170e1f-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps>
+                        <step start='1676172659230' status='passed' stop='1676172660576'>
+                            <name>acceptAlert</name>
+                            <title>acceptAlert</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1676172660648' status='passed' stop='1676172660863'>
+                            <name>takeScreenshot</name>
+                            <title>takeScreenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='b69072a5-fa8a-4cb9-9d7f-1bcd69c123d7-attachment.png' type='image/png' size='274136'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such alert</message>
+                <stack-trace>no such alert
+                Error: no such alert
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/gshahin/Documents/II/New/ii-webdriverio-chai-test/test/specs/e2e.ts:12:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676172660864' status='broken' stop='1676172661019'>
+            <name>should click on the “Services” dropdown in the top nav bar,</name>
+            <title>should click on the “Services” dropdown in the top nav bar,</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676172660866' status='broken' stop='1676172661019'>
+                    <name>acceptAlert</name>
+                    <title>acceptAlert</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1676172660867' status='passed' stop='1676172661019'>
+                            <name>takeScreenshot</name>
+                            <title>takeScreenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='86fc9e2f-ae77-4c9d-9a1b-39335b1fed78-attachment.png' type='image/png' size='274136'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such alert</message>
+                <stack-trace>no such alert
+                Error: no such alert
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/gshahin/Documents/II/New/ii-webdriverio-chai-test/test/specs/e2e.ts:18:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

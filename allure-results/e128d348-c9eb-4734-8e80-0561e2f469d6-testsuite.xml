@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676169542818' stop='1676169545413'>
+    <name>launch Interactive Investor application</name>
+    <title>launch Interactive Investor application</title>
+    <test-cases>
+        <test-case start='1676169542819' status='passed' stop='1676169545230'>
+            <name>should launch Interactive Investor website</name>
+            <title>should launch Interactive Investor website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676169542822' status='passed' stop='1676169545228'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='3fcd039a-37b0-44f8-abfb-db3cb8ddcd0e-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676169545230' status='broken' stop='1676169545412'>
+            <name>verify</name>
+            <title>verify</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676169545233' status='passed' stop='1676169545236'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='26123d75-1463-4378-81a6-572469aa28bb-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='47a6299e-3555-418e-9955-5b83f9516c65-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676169545247' status='passed' stop='1676169545412'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7399f35f-c183-4f61-91a6-99efab9f669c-attachment.png' type='image/png' size='274136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Invalid Chai property: visible</message>
+                <stack-trace>Error: Invalid Chai property: visible
+                    at Object.proxyGetter [as get] (/Users/gshahin/Documents/II/New/ii-webdriverio-chai-test/node_modules/chai/lib/chai/utils/proxify.js:78:17)
+                    at Context.&lt;anonymous> (/Users/gshahin/Documents/II/New/ii-webdriverio-chai-test/test/specs/e2e.ts:11:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

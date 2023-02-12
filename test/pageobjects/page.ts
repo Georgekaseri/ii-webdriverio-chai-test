@@ -9,6 +9,5 @@ export default class Page {
    */
   public open(path: string) {
     return browser.url(`https://www.ii.co.uk${path}`);
-    //  return browser.url(`https://the-internet.herokuapp.com/${path}`);
   }
 }

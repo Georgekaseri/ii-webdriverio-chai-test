@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676172006341' stop='1676172007946'>
+    <name>should test Interactive Investor application</name>
+    <title>should test Interactive Investor application</title>
+    <test-cases>
+        <test-case start='1676172006341' status='passed' stop='1676172007919'>
+            <name>should get the correct page titel</name>
+            <title>should get the correct page titel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676172006343' status='undefined'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='a98c663e-21af-473c-8d4f-fc3a359d91ad-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps>
+                        <step start='1676172006351' status='undefined'>
+                            <name>getTitle</name>
+                            <title>getTitle</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1676172007915' status='passed' stop='1676172007919'>
+                                    <name>getTitle</name>
+                                    <title>getTitle</title>
+                                    <attachments>
+                                        <attachment title='Response' source='8a70868a-de92-4e1b-99a1-59e69eb0fd35-attachment.json' type='application/json' size='35'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676172007920' status='passed' stop='1676172007945'>
+            <name>should click on the “Services” dropdown in the top nav bar,</name>
+            <title>should click on the “Services” dropdown in the top nav bar,</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676172007922' status='passed' stop='1676172007924'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='3bc1462d-cea4-4799-84e3-60f16c27d722-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='4a830c40-64f9-4d36-a042-bdb61ea8a866-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676172007928' status='passed' stop='1676172007945'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='db58e5f6-38de-4c68-af84-d2ede456242b-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

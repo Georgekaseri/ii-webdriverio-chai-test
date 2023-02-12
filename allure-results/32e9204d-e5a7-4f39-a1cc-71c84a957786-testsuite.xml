@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676171256206' stop='1676171256337'>
+    <name>launch Interactive Investor application</name>
+    <title>launch Interactive Investor application</title>
+    <test-cases>
+        <test-case start='1676171256206' status='failed' stop='1676171256336'>
+            <name>should get the correct page titel</name>
+            <title>should get the correct page titel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676171256211' status='failed' stop='1676171256336'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='fad11e13-c247-4f10-849e-112e6adcceef-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps>
+                        <step start='1676171256217' status='failed' stop='1676171256336'>
+                            <name>getTitle</name>
+                            <title>getTitle</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1676171256217' status='passed' stop='1676171256334'>
+                                    <name>takeScreenshot</name>
+                                    <title>takeScreenshot</title>
+                                    <attachments>
+                                        <attachment title='Screenshot' source='14202eb9-7cc9-4d04-84d7-24b2a97c0c52-attachment.png' type='image/png' size='17427'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected Promise{…} to equal 'launch Interactive Investor applicati…'      
+                      actual expected
+                      
+                      Promise'launch [Promise]Interactive {}Investor application'
+                      </message>
+                <stack-trace>AssertionError: expected Promise{…} to equal 'launch Interactive Investor applicati…'
+                    at Context.&lt;anonymous> (/Users/gshahin/Documents/II/New/ii-webdriverio-chai-test/test/specs/e2e.ts:13:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
