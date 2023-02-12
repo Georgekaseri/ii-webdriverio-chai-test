@@ -4,6 +4,7 @@ import LoginPage from "../pageobjects/login.page";
 import HomePage from "../pageobjects/home.page";
 import AlertPage from "../pageobjects/alert.page";
 import testdata from "../data/testData.json";
+import homePage from "../pageobjects/home.page";
 
 describe("should test Interactive Investor application", async () => {
   before(() => {
@@ -19,11 +20,11 @@ describe("should test Interactive Investor application", async () => {
   });
 
   it("should click on the “Services” dropdown in the top nav bar,", async () => {
+    browser.pause(5000);
     await HomePage.clickOnServiceNavigation();
 
-    await (await $$("//i[@class='ii-1odz88f']")[0]).click();
-    const elem = await $("//a[text()='SIPP']");
+    const elem = await $("//a[text()='Trading Account']");
     await elem.waitForDisplayed({ timeout: 3000 });
-    await (await $("//a[text()='SIPP']")).click();
+    await (await $("//a[text()='Trading Account']")).click();
   });
 });
