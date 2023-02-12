@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676167086437' stop='1676167089250'>
+    <name>Launch Interactive Investor application</name>
+    <title>Launch Interactive Investor application</title>
+    <test-cases>
+        <test-case start='1676167086437' status='passed' stop='1676167089250'>
+            <name>should launch Interactive Investor website</name>
+            <title>should launch Interactive Investor website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676167086440' status='passed' stop='1676167089249'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='5e289696-461c-4854-b7d5-c29759ecb277-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676166189896' stop='1676166191748'>
+    <name>Launch Interactive Investor application</name>
+    <title>Launch Interactive Investor application</title>
+    <test-cases>
+        <test-case start='1676166189896' status='broken' stop='1676166191747'>
+            <name>should launch Interactive Investor website</name>
+            <title>should launch Interactive Investor website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676166189898' status='passed' stop='1676166191579'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='1c870ad5-6f42-4b76-b9fb-b254616550e3-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676166191584' status='passed' stop='1676166191747'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='09ab3d18-4274-41ea-92db-c44d5d160d6f-attachment.png' type='image/png' size='342325'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Invalid Chai property: visible</message>
+                <stack-trace>Error: Invalid Chai property: visible
+                    at Object.proxyGetter [as get] (/Users/gshahin/Documents/II/Test/interactive-investor-webdriverio-test-framework/node_modules/chai/lib/chai/utils/proxify.js:78:17)
+                    at Context.&lt;anonymous> (/Users/gshahin/Documents/II/Test/interactive-investor-webdriverio-test-framework/test/specs/example.e2e.ts:7:37)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
