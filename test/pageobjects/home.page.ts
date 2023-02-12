@@ -1,6 +1,10 @@
 class HomePage {
-  get gettradingAccount() {
+  get getTradingAccount() {
     return $$(".ii-1ai24k")[0];
+  }
+
+  get getPensionTradingAccount() {
+    return $$(".ii-1ai24k")[5];
   }
 
   get getDropDownLinks() {
@@ -17,11 +21,20 @@ class HomePage {
   }
 
   async clickOnTradingAccount() {
-    await this.gettradingAccount.click();
+    await this.getTradingAccount.click();
   }
 
-  async getTexOfDropDownLinks(index) {
-    await this.getDropDownLinks[index];
+  async clickOnPensionsTradingAccount() {
+    await this.getPensionTradingAccount.click();
+  }
+
+  async clickOnPensionsNavigation(index: string | number) {
+    const el = $$(".ii-1odz88f")[index];
+    let clickable = await el.isClickable();
+
+    // wait for element to be clickable
+    await browser.waitUntil(() => el.isClickable());
+    return await el.click();
   }
 }
 export default new HomePage();

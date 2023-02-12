@@ -4,7 +4,7 @@ import AlertPage from "../pageobjects/alert.page";
 import testdata from "../data/testData.json";
 import { waitForTextToAppear, waitForVisible } from "../helper/helpers";
 
-describe("should test Interactive Investor application", async () => {
+describe("should test Services", async () => {
   before(async function () {
     return browser.url(testdata.url);
   });
