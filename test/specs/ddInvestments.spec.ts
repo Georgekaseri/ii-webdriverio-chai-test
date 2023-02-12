@@ -57,8 +57,7 @@ describe("should test Investments dropdown", async () => {
   it("should verify that user landed on the expected URL", async () => {
     await HomePage.clickOnInternationShare(4);
     waitForTextToAppear("h1]", "International investing & share dealing");
-    expect(
-      "a[href=const url =https://www.ii.co.uk/investing-with-ii/international-investing]"
-    );
+    const url = await browser.getUrl();
+    assert(url, testdata.verifyUrl.internationInvestingUrl);
   });
 });

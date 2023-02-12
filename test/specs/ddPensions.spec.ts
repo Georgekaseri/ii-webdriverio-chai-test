@@ -43,8 +43,9 @@ describe("should test Pensions dropdown", async () => {
   });
 
   it("should verify that user landed on the expected URL", async () => {
-    await HomePage.clickOnPensionsTradingAccount();
+    await HomePage.clickOnPensionsTradingAccount(5);
     waitForTextToAppear("h1]", "Pension Trading Account");
-    expect("a[href=https://www.ii.co.uk/ii-accounts/pension-trading-account]");
+    const url = await browser.getUrl();
+    assert(url, testdata.verifyUrl.pensionTradingUrl);
   });
 });

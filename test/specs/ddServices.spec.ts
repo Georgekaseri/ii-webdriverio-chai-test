@@ -1,9 +1,8 @@
-import chai, { expect } from "chai";
+import chai, { assert, expect } from "chai";
 import HomePage from "../pageobjects/home.page";
 import AlertPage from "../pageobjects/alert.page";
 import testdata from "../data/testData.json";
 import { waitForTextToAppear, waitForVisible } from "../helper/helpers";
-import assert from "assert";
 
 describe("should test Services", async () => {
   before(async function () {
@@ -46,8 +45,9 @@ describe("should test Services", async () => {
     }
   });
   it("should verify that user landed on the expected URL", async () => {
-    await HomePage.clickOnTradingAccount();
+    await HomePage.clickOnTradingAccount(1);
     waitForTextToAppear("h1]", "Trading Account");
-    expect("a[href=https://www.ii.co.uk/ii-accounts/trading-account]");
+    const url = await browser.getUrl();
+    assert(url, testdata.verifyUrl.tradingAccountUrl);
   });
 });
