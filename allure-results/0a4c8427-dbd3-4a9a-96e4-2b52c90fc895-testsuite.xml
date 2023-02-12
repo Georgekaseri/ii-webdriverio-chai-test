@@ -1,0 +1,131 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676229924609' stop='1676229924883'>
+    <name>should test Service dropdown in the top nav bar</name>
+    <title>should test Service dropdown in the top nav bar</title>
+    <test-cases>
+        <test-case start='1676229924609' status='broken' stop='1676229924750'>
+            <name>should click on the “Services” dropdown in the top nav bar,</name>
+            <title>should click on the “Services” dropdown in the top nav bar,</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676229924612' status='passed' stop='1676229924626'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='2d28c49d-a15c-4c5f-ad65-4ec3a21b9a98-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='c10adb27-eb83-42da-9748-0aeadd3d2d59-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676229924630' status='passed' stop='1676229924749'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6ba31dc5-1c0b-4e33-b8ee-4ef60b26c24f-attachment.png' type='image/png' size='17427'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element could not be found</message>
+                <stack-trace>Error: Element could not be found
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676229924750' status='passed' stop='1676229924751'>
+            <name>should verify the links under Services dropdown</name>
+            <title>should verify the links under Services dropdown</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676229924752' status='undefined'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='f5b60ba8-7bd9-4a18-a01c-3725a1729991-attachment.json' type='application/json' size='88'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676229924753' status='broken' stop='1676229924883'>
+            <name>should verify that user landed on the expected URL</name>
+            <title>should verify that user landed on the expected URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.0.0'/>
+            </parameters>
+            <steps>
+                <step start='1676229924753' status='broken' stop='1676229924883'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='43dda32d-c244-47a3-9e10-b14150efc49a-attachment.json' type='application/json' size='88'/>
+                    </attachments>
+                    <steps>
+                        <step start='1676229924753' status='broken' stop='1676229924883'>
+                            <name>findElement</name>
+                            <title>findElement</title>
+                            <attachments>
+                                <attachment title='Request' source='816e9b12-ea8b-4d61-b82c-d4d8a70b1a89-attachment.json' type='application/json' size='84'/>
+                            </attachments>
+                            <steps>
+                                <step start='1676229924754' status='broken' stop='1676229924883'>
+                                    <name>findElements</name>
+                                    <title>findElements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='e9258a6a-505a-4ed4-a055-ed9480288305-attachment.json' type='application/json' size='84'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1676229924765' status='passed' stop='1676229924766'>
+                                            <name>findElements</name>
+                                            <title>findElements</title>
+                                            <attachments>
+                                                <attachment title='Request' source='07a70d1d-aa5f-40a5-a656-a12103fc817a-attachment.json' type='application/json' size='54'/>
+                                                <attachment title='Response' source='162cd2c8-ca8b-4a16-bdce-3bceb6787c17-attachment.json' type='application/json' size='2'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                        <step start='1676229924768' status='passed' stop='1676229924882'>
+                                            <name>takeScreenshot</name>
+                                            <title>takeScreenshot</title>
+                                            <attachments>
+                                                <attachment title='Screenshot' source='2e25f9f2-d11a-4ef2-abad-ac65940a4f88-attachment.png' type='image/png' size='17427'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element could not be found</message>
+                <stack-trace>Error: Element could not be found
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

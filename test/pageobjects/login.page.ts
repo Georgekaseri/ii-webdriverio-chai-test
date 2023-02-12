@@ -10,6 +10,10 @@ class LoginPage extends Page {
   public open() {
     return super.open("/new-homepage");
   }
+
+  get getPage() {
+    return $$(".ii-eqgpbd");
+  }
 }
 
 export default new LoginPage();
