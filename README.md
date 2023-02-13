@@ -80,9 +80,15 @@ https://www.chaijs.com/
 https://github.com/webdriverio/webdriverio
 
 
-**`Allure Result ::`**
+**`Allure Result Chrome ::`**
 
 <img width="1467" alt="Screenshot 2023-02-13 at 13 58 33" src="https://user-images.githubusercontent.com/117205566/218575217-79842bd1-f91a-43c0-8a6c-30bb97c85c74.png">
+
+**`Allure Result Firefox ::`**
+
+<img width="835" alt="Screenshot 2023-02-13 at 21 20 25" src="https://user-images.githubusercontent.com/117205566/218577308-f25ccf17-2250-4aeb-a3ac-cace950d89d0.png">
+
+<img width="1482" alt="Screenshot 2023-02-13 at 21 20 46" src="https://user-images.githubusercontent.com/117205566/218577371-41f4b96b-57cf-45ba-8b80-04e8da7a0f65.png">
 
 
 **`Happy Testing :)`**
