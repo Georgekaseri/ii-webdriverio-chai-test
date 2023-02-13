@@ -20,24 +20,13 @@ npm install will install all of your selection
 
 ## Configuration
 
-Following code shows the default wdio test runner configuration...
+Following wdio.conf.ts code shows the default wdio test runner configuration...
 
-export const config: Options.Testrunner = {
-//
-// ====================
-// Runner Configuration
-// ====================
-// WebdriverIO supports running e2e tests as well as unit and component tests.
-runner: "local",
-autoCompileOpts: {
-tsNodeOpts: {
-project: "./tsconfig.json",
-},
-},
-
-To run Task 2 in your local
+To run the test your local
 **`git clone https://github.com/Georgekaseri/ii-webdriverio-chai-test.git`**
+
 **`cd webdriverio-chai-test`**
+
 **`npm install --force`**
 
 ### Run tests:
