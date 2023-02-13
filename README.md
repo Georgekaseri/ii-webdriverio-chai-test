@@ -32,6 +32,8 @@ To run the test your local
 
 **`npm install --force`**
 
+**`npm audit fix --force`**
+
 ### Run tests:
 
 **`npm run test`**
