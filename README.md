@@ -21,6 +21,7 @@ npm install will install all of your selection
 ## Configuration
 
 Following wdio.conf.ts code shows the default wdio test runner configuration...
+the framework is created using page object model and test driven.
 
 To run the test your local
 **`git clone https://github.com/Georgekaseri/ii-webdriverio-chai-test.git`**
