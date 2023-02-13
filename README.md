@@ -40,6 +40,21 @@ To run the test your local
 
 **`npm run generate:report`**
 
+### Run test in firefox:
+
+**`npm run test:firefox`**
+
+### Run test in crossbrowser:
+
+**`npm run test:crossbrowser`**
+
+### Run test in Jenkins:
+### Execute shell for Mac
+### Execute command in Window
+
+**`npm run test:jenkins`**
+
+
 **IMPORTANT**
 
 ### Branching Strategy
