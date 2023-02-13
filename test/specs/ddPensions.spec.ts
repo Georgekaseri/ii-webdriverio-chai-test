@@ -25,18 +25,18 @@ describe("should test Pensions dropdown", async () => {
   it("should verify all the links under Pensions dropdown", async () => {
     for (let i = 0; i < 12; i++) {
       let pensionsLinks = [
-        testdata.pensionslnk1,
-        testdata.pensionslnk2,
-        testdata.pensionslnk3,
-        testdata.pensionslnk4,
-        testdata.pensionslnk5,
-        testdata.pensionslnk6,
-        testdata.pensionslnk7,
-        testdata.pensionslnk8,
-        testdata.pensionslnk9,
-        testdata.pensionslnk10,
-        testdata.pensionslnk11,
-        testdata.pensionslnk12,
+        testdata.pensionsLinks.lnk1,
+        testdata.pensionsLinks.lnk2,
+        testdata.pensionsLinks.lnk3,
+        testdata.pensionsLinks.lnk4,
+        testdata.pensionsLinks.lnk5,
+        testdata.pensionsLinks.lnk6,
+        testdata.pensionsLinks.lnk7,
+        testdata.pensionsLinks.lnk8,
+        testdata.pensionsLinks.lnk9,
+        testdata.pensionsLinks.lnk10,
+        testdata.pensionsLinks.lnk11,
+        testdata.pensionsLinks.lnk12,
       ];
       assert.equal(await HomePage.verifyPensionsLinks(i), pensionsLinks[i]);
     }
