@@ -5,7 +5,7 @@ import testdata from "../data/testData.json";
 import { waitForTextToAppear, waitForVisible } from "../helper/helpers";
 import assert from "assert";
 
-describe("should test Help & Learning", async () => {
+describe("should test Help & Learning dropdown", async () => {
   before(async function () {
     return browser.url(testdata.url);
   });
