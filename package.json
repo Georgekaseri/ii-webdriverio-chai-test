@@ -19,7 +19,8 @@
     "test": "wdio run ./wdio.conf.ts",
     "generate:report": "allure generate allure-results/ && allure open",
     "test:jenkins": "wdio run ./wdio.conf.jenkins.ts",
-    "test:firefox": "wdio run ./wdio.conf.firefox.ts"
+    "test:firefox": "wdio run ./wdio.conf.firefox.ts",
+    "test:crossbrowser": "wdio run ./wdio.conf.cross.browser"
   },
   "dependencies": {
     "npm-check-updates": "^16.6.2"
