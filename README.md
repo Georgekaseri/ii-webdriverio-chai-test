@@ -20,7 +20,7 @@ npm install will install all of your selection
 
 ## Configuration
 
-Following wdio.conf.ts code shows the default wdio test runner configuration...<img width="1467" alt="Screenshot 2023-02-13 at 13 58 33" src="https://user-images.githubusercontent.com/117205566/218575137-d9e3edab-5c05-4045-939c-484855154df2.png"><img width="1467" alt="Screenshot 2023-02-13 at 13 58 33" src="https://user-images.githubusercontent.com/117205566/218575176-bdb5fc62-ffa7-4461-8595-1f7b586a41ca.png">
+Following wdio.conf.ts code shows the default wdio test runner configuration.
 
 
 the framework is created using page object model and test driven.
