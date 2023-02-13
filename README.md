@@ -33,6 +33,10 @@ To run the test your local
 
 **`npm run test`**
 
+### Generate Allure report:
+
+**`npm run generate:report`**
+
 **IMPORTANT**
 
 ### Branching Strategy
