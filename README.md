@@ -59,10 +59,15 @@ This project uses a trunk-based strategy.
 ## Useful links
 
 https://webdriver.io/
+
 https://www.chaijs.com/
+
 https://github.com/webdriverio/webdriverio
 
+
 **`Happy Testing :)`**
+
+
 **`Allure Result`**
 <img width="1467" alt="Screenshot 2023-02-13 at 13 58 33" src="https://user-images.githubusercontent.com/117205566/218575217-79842bd1-f91a-43c0-8a6c-30bb97c85c74.png">
 
