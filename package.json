@@ -17,7 +17,8 @@
   },
   "scripts": {
     "test": "wdio run ./wdio.conf.ts",
-    "generate:report": "allure generate allure-results/ && allure open"
+    "generate:report": "allure generate allure-results/ && allure open",
+    "test:jenkins": "wdio run ./wdioJenkins.conf.ts"
   },
   "dependencies": {
     "npm-check-updates": "^16.6.2"
