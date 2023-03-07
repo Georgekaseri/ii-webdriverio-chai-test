@@ -92,7 +92,7 @@ class HomePage {
   }
 
   async clickOnNewsDropDown() {
-    const ele = $(".ii-1j4x8p8");
+    const ele = $(".ii-umca6q");
     let clickable = await ele.isClickable();
 
     // wait for element to be clickable

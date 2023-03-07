@@ -3,28 +3,9 @@ import { config as baseConfig } from "./wdio.conf";
 
 export const config: Options.Testrunner = {
   ...baseConfig,
-  capabilities: [
-    {
-      browserName: "firefox",
-    },
-  ],
+  capabilities: [{
+    browserName: 'firefox',
+    "moz:debuggerAddress": true
+  }],
 
-  services: [
-    [
-      "selenium-standalone",
-      {
-        logPath: "logs",
-        installArgs: {
-          drivers: {
-            firefox: { version: "0.26.0" },
-          },
-        },
-        args: {
-          drivers: {
-            firefox: { version: "0.26.0" },
-          },
-        },
-      },
-    ],
-  ],
 };

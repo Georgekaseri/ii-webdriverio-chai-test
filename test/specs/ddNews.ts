@@ -17,7 +17,7 @@ describe("should test News Dropdown", async () => {
 
   it("should click on the News dropdown in the top nav bar,", async () => {
     await HomePage.clickOnNewsDropDown();
-    waitForTextToAppear("//title", "Latest Stock Market News & Analysis");
+   waitForTextToAppear("//title", "Latest Stock Market News & Analysis");
     const url = await browser.getUrl();
     assert(url, testdata.verifyUrl.newsUrl);
   });

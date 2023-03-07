@@ -12,26 +12,11 @@ export const config: Options.Testrunner = {
     {
       maxInstances: 1,
       browserName: "firefox",
+      "moz:debuggerAddress": true,
       acceptInsecureCerts: true,
+      
     },
   ],
 
-  services: [
-    [
-      "selenium-standalone",
-      {
-        logPath: "logs",
-        installArgs: {
-          drivers: {
-            firefox: { version: "0.26.0" },
-          },
-        },
-        args: {
-          drivers: {
-            firefox: { version: "0.26.0" },
-          },
-        },
-      },
-    ],
-  ],
+
 };
